@@ -46,8 +46,6 @@ class ChromecastSessionManager {
       this.remotePlayerController = new cast.framework.RemotePlayerController(this.remotePlayer);
    }
 
-   static hasConnected = false;
-
    /**
     * Add event listeners for events triggered on the current CastContext.
     *
@@ -238,4 +236,5 @@ class ChromecastSessionManager {
    }
 }
 
+ChromecastSessionManager.hasConnected = false;
 module.exports = ChromecastSessionManager;
