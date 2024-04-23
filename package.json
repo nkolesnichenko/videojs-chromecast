@@ -13,15 +13,10 @@
       "release:preview": "node ./node_modules/@silvermine/standardization/scripts/release.js preview",
       "release:prep-changelog": "node ./node_modules/@silvermine/standardization/scripts/release.js prep-changelog",
       "release:finalize": "node ./node_modules/@silvermine/standardization/scripts/release.js finalize",
-      "prepublish": "grunt build",
-      "prepare": "grunt build"
+      "prepublish": "grunt build"
    },
    "author": "Jeremy Thomerson",
    "license": "MIT",
-   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/silvermine/videojs-chromecast.git"
-   },
    "keywords": [
       "video.js",
       "videojs",
@@ -30,10 +25,6 @@
       "chromecast",
       "cast"
    ],
-   "bugs": {
-      "url": "https://github.com/silvermine/videojs-chromecast/issues"
-   },
-   "homepage": "https://github.com/silvermine/videojs-chromecast#readme",
    "dependencies": {
       "webcomponents.js": "git+https://git@github.com/webcomponents/webcomponentsjs.git#v0.7.24"
    },
